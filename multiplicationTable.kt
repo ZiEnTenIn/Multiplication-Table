@@ -43,7 +43,7 @@ public fun main() {
         var firstInput2 = beforeInput3
         var secondInput2 = scan.next()
         if(secondInput2.toIntOrNull() != null) {
-            println("\r\nВведите целое число столбцов, которое вы желаете видеть в 1 строке:")
+            println("\r\nВведите целое число столбцов, которое вы желаете видеть в 1 строке(рекомендуется не более 5):")
             return columns(firstInput1.toInt(), secondInput1.toInt(), firstInput2.toInt(), secondInput2.toInt())
         }
         else {
